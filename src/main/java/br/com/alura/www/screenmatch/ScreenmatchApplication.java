@@ -11,7 +11,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ScreenmatchApplication.class, args);
-		MyProxySelector.register("10.70.124.16", 3128);
+		MyProxySelector.register("xx.xx.xx.xx", xxxx);
 	}
 
 	@Override
