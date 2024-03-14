@@ -6,7 +6,6 @@ import br.com.alura.www.screenmatch.model.DadosTemporada;
 import br.com.alura.www.screenmatch.model.Episodio;
 import br.com.alura.www.screenmatch.service.ConsumoApi;
 import br.com.alura.www.screenmatch.service.ConverteDados;
-import br.com.alura.www.screenmatch.service.MyProxySelector;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -21,10 +20,6 @@ public class Principal {
 
     private final String ENDERECO = "https://www.omdbapi.com/?t=";
     private final String API_KEY = "&apikey=c8d89cdb";
-
-    public Principal() {
-        MyProxySelector.register("10.70.124.16", 3128);
-    }
 
     public void exibeMenu() {
         System.out.println("Digite o nome da série para busca");
