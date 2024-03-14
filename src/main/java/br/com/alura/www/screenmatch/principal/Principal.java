@@ -20,7 +20,7 @@ public class Principal {
     private ConverteDados conversor = new ConverteDados();
 
     private final String ENDERECO = "https://www.omdbapi.com/?t=";
-    private final String API_KEY = "&apikey=c8d89cdb";
+    private final String API_KEY = "&apikey=xxxxxxxx";
 
     public Principal() {
         MyProxySelector.register("xx.xx.xxx.xx", xxxx);
